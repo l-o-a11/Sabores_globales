@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1 ">
+    <title>Sabores Globales</title>
+    <link rel="icon" type="logo" href="/img/logo.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="encabezado">
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo">
+        </div>
+        <div class="menu-hamburguesa">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="#menu">Inicio</a></li>
+                <li><a href="#galeria-imagenes">Galería</a></li>
+                <li><a href="#ubicacion">Cede</a></li>
+                <li><a href="#mesa">Reserva de Mesa</a></li>
+                <li><a href="inicio.html">Iniciar Sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="contenido" id="menu">
+        <section class="presentacion">
+            <div class="texto">
+                <h1>sabores globales</h1>
+                <p>Descubre el sabor que transforma cada bocado en una experiencia única. Explora nuestro menú y déjate tentar por lo mejor de nuestra cocina.</p>
+                <div class="paises-menu">
+                    <h2>los países que acompañan este menú son</h2>
+                    <div class="paises-grid">
+                        <button class="pais" data-pais="colombia" onclick="mostrarModal('ventana1')"><a href="colombia.html">COLOMBIA</button></a>
+                        <button class="pais" data-pais="costa-rica" onclick="mostrarModal('entana2')"><a href="costa-rica.html">COSTA RICA</button></a>
+                        <button class="pais" data-pais="italia"onclick="mostrarModal('ventana3')"><a href="italia.html">ITALIA</button></a>
+                        <button class="pais" data-pais="francia"onclick="mostrarModal('ventana4')"><a href="francia.html">FRANCIA</button></a>
+                        <button class="pais" data-pais="portugal"onclick="mostrarModal('ventana5')"><a href="portugal.html">PORTUGAL</button></a>
+                        <button class="pais" data-pais="españa"onclick="mostrarModal('ventana6')"><a href="españa.html">ESPAÑA</button></a>
+                        <button class="pais" data-pais="mexico"onclick="mostrarModal('ventana7')"><a href="mexico.html">MÉXICO</button></a>
+                        <button class="pais" data-pais="argentina"onclick="mostrarModal('ventana8')"><a href="argentina.html">ARGENTINA</button></a>
+                        <button class="pais" data-pais="ecuador"onclick="mostrarModal('ventana9')"><a href="ecuador.html">ECUADOR</button></a>
+                        <button class="pais" data-pais="alemania"onclick="mostrarModal('ventana10')"><a href="alemania.html">ALEMANIA</button></a>
+                    </div>
+                    
+                </div>
+           
+            </div>
+            <div class="right-background"></div> <!-- Nuevo div para la imagen de fondo -->
+            <div class="right-background">
+                <video autoplay loop muted playsinline>
+                    <source src="img/invideo-ai-1080 Sabores Globales_ Un Viaje Culinario por 2025-03-31.mp4" type="video/mp4">
+                    Tu navegador no soporta videos.
+                </video>
+            </div>
+        </section>
+    </main>
+    <footer class="pie-pagina">
+        <p>sabores globales</p>
+        <nav>
+            <a href="#horario">horario</a>
+            <a href="#menu-completo">carta</a>
+            <a href="#resenas">críticas</a>
+        </nav>
+    </footer>
+    <section class="seccion-info">
+        <div class="info-box1">
+            <div class="contenido-original">
+                <h2>Recomendacion</h2>
+                <p>Conoce nuestras recetas más populares</p>
+            </div>
+            <div class="contenido-hover">
+                <h2>Recomendacion</h2>
+                <button class="btn-ir" > <a href="#seccion-menu">Mas información</button></a>
+            </div>
+        </div>
+        <div class="info-box2">
+            <div class="contenido-original">
+                <h2>Menú</h2>
+                <p>Menú completo con precios y fotos</p>
+            </div>
+            <div class="contenido-hover">
+                <h2>Menú</h2>
+                <button class="btn-ir"> <a href="#menu-completo">Mas información</button></a>
+            </div>
+        </div>
+        <div class="info-box3">
+            <div class="contenido-original">
+                <h2>Platos del dia</h2>
+                <p> Conoce nuestra recomendacion para tu paladar hoy</p>
+                
+            </div>
+            <div class="contenido-hover">
+                <h2>Saber mas?</h2>
+                <button class="btn-ir"><a href="#seccion-menus">Vamos!</button></a>
+            </div>
+        </div>
+        
+        <div class="info-box4" id="ubicacion">
+            
+                <h2>Dirección de cede principal</h2>
+                <p>Sabores Globales, Calle 123 #45-67, Barrio Central, Bogotá, Colombia</p>
+                <img class="ubicacion" src="img/ubicacion.png" alt="telefono">
+                
+        </div>
+        <div class="info-box5">
+            <div class="contenido-original">
+            <h2>Reservas</h2>
+            <p>Reserve ahora una mesa para sabores globales</p>
+            <img class="reserva" src="img/reservas.png" alt="telefono">
+                
+            </div>
+            <div class="contenido-hover">
+                <h2>Reservas</h2>
+                <button class="btn-ir"><a href="#mesa">Mas información</button></a>
+            </div>
+        </div>
+    </section>
+</main>
+<div class="linea" ></div>
+<section id="objetivo">
+    <div class="contenedor-objetivo">
+        <div class="texto-objetivo">
+            <h2 class="titulo-objetivo">Conoce nuestra meta</h2>
+            <p class="descripcion-objetivo">
+                Desarrollar una propuesta gastronómica innovadora que combine los sabores más representativos de distintas culturas culinarias, utilizando ingredientes auténticos y técnicas tradicionales de cada región. Nuestro objetivo es ofrecer a los comensales una experiencia sensorial única, donde cada plato cuente una historia y transporte a los clientes a diferentes rincones del mundo a través del sabor, el aroma y la presentación. </p>
+        
+            <!-- Checkbox oculto -->
+            <input type="checkbox" id="toggle-texto" class="toggle-texto">
+            
+            <!-- Texto adicional que se ocultará por defecto -->
+            <p class="texto-adicional">
+                Buscamos fomentar la apreciación de la diversidad culinaria global, creando un menú dinámico que equilibre tradición y creatividad, con opciones que sorprendan y deleiten a cada paladar. Además, nos comprometemos a trabajar con ingredientes frescos y de alta calidad, priorizando la sostenibilidad y la autenticidad en cada preparación, para garantizar una experiencia gastronómica memorable y culturalmente enriquecedora. </p>
+        
+            <!-- Etiqueta que actúa como botón -->
+            <label for="toggle-texto" class="boton-objetivo">LEER MÁS</label>
+        </div>
+        <div class="imagenes-objetivo">
+            <div class="grupo-fotos">
+                <img class="imagen-objetivo" src="img/chef.jpg" alt="Chef cocinando" >
+            </div>
+        </div>
+    </div>
+</section>
+<div class="linea" ></div>
+<section id="seccion-menu">
+    <h2 class="titulo-menu">Plato estrella</h2>
+    <div class="contenedor-menu">
+        
+        <div class="contenido-menu">
+            
+            <div class="valoracion-menu">
+                <img src="img/pizza.jpg" alt="Plato de comida" class="imagen-menu">
+                <div class="calificacion-menu">
+                    <span class="estrella">⭐</span>
+                    <span class="puntaje">4.2 / 5</span>
+                    <p class="resenas">SEGÚN <span class="numero-resenas">5984</span> <a href="#" class="link-resenas">EVALUACIONES</a></p>
+                </div>
+            </div>
+            <div class="descripcion-menu">
+                <p>
+                    una explosión de ingredientes seleccionados de cada rincón del mundo. Comenzamos con una base crujiente y dorada al horno de piedra, untada con nuestra salsa de tomate casera, enriquecida con especias mediterráneas.
+
+Luego, añadimos una mezcla de quesos artesanales: el cremoso mozzarella italiano, el intenso gouda holandés y un toque de feta griego para un equilibrio perfecto. Sobre esta base irresistible, colocamos finas lonjas de jamón serrano español, champiñones portobello y un toque de aceitunas negras kalamata, que aportan una nota sutilmente salada.  </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+</section>
+<div class="linea" ></div>
+<section id="seccion-menus">
+    <h2 class="titulo-menu">Platos del dia</h2>
+    <div class="contenedor-menu">
+        
+        <div class="contenido-menus">
+            
+            <div class="valoracion-menu">
+                <img src="img/Soupe à l’Oignon.jpg" alt="Plato de comida" class="imagen-menu" onclick="mostrarModal('modal1')">
+                <div class="calificacion-menus">
+                    <span class="estrella">⭐</span>
+                    <span class="puntaje">4.0/5</span>
+                    <p class="resenas">Entrada</p>
+                </div>
+            </div>
+
+            <!-- Modal Entrada -->
+            <div id="modal1" class="modal">
+                <div class="modal-contenido">
+                    <span class="cerrar" onclick="cerrarModal('modal1')">&times;</span>
+                    <h3 class="modal-header">Soupe à l’Oignon</h3>
+                    <img src="img/Soupe à l’Oignon.jpg" alt="Plato">
+                    <div class="modal-texto">
+                    <p>Entrada</p>
+                    <p>Sopa de cebolla caramelizada con caldo de res y vino blanco, gratinada con queso gruyère y pan tostado.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Plato Principal -->
+            <div class="valoracion-menu">
+                <img src="img/Boeuf Bourguignon.jpg" alt="Plato de comida" class="imagen-menu" onclick="mostrarModal('modal2')">
+                <div class="calificacion-menus">
+                    <span class="estrella">⭐</span>
+                    <span class="puntaje">4.2/5</span>
+                    <p class="resenas">Plato Principal</p>
+                </div>
+            </div>
+
+            <!-- Modal Plato Principal -->
+            <div id="modal2" class="modal">
+                <div class="modal-contenido">
+                    <span class="cerrar" onclick="cerrarModal('modal2')">&times;</span>
+                    <h3 class="modal-header">Boeuf Bourguignon</h3>
+                    <img src="img/Boeuf Bourguignon.jpg" alt="Plato">
+                    <div class="modal-texto">
+                    <p>Plato Principal</p>
+                    <p>Guiso de carne de res cocida lentamente en vino tinto de Borgoña con champiñones, zanahorias y cebollitas perla.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Postre -->
+            <div class="valoracion-menu">
+                <img src="img/Crème Brûlée.jpg" alt="Plato de comida" class="imagen-menu" onclick="mostrarModal('modal3')">
+                <div class="calificacion-menus">
+                    <span class="estrella">⭐</span>
+                    <span class="puntaje">4.2/5</span>
+                    <p class="resenas">Postre</p>
+                </div>
+            </div>
+
+            <!-- Modal Postre -->
+            <div id="modal3" class="modal">
+                <div class="modal-contenido">
+                    <span class="cerrar" onclick="cerrarModal('modal3')">&times;</span>
+                    <h3 class="modal-header" >Crème Brûlée</h3>
+                    <img src="img/Crème Brûlée.jpg" alt="Plato">
+                    <div class="modal-texto">
+                    <p>Postre</p>
+                    <p>Crema de vainilla horneada con una costra de azúcar caramelizada en la parte superior.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bebida -->
+            <div class="valoracion-menu">
+                <img src="img/Kir Royal.jpg" alt="Plato de comida" class="imagen-menu" onclick="mostrarModal('modal4')">
+                <div class="calificacion-menus">
+                    <span class="estrella">⭐</span>
+                    <span class="puntaje">4.4/5</span>
+                    <p class="resenas">Bebida</p>
+                </div>
+            </div>
+
+            <!-- Modal Bebida -->
+            <div id="modal4" class="modal">
+                <div class="modal-contenido">
+                    <span class="cerrar" onclick="cerrarModal('modal4')">&times;</span>
+                    <h3 class="modal-header">Kir Royal</h3>
+                    <img src="img/Kir Royal.jpg" alt="Plato">
+                    <div class="modal-texto">
+                    <p>Bebida</p>
+                    <p> Un cóctel elegante hecho con champán y licor de cassis (grosella negra).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="contenedor-principal">
+    <!-- Aside de información -->
+    <aside id="aside-informacion">
+        <div class="contenedor-aside">
+            <div class="logo-aside">
+                <img src="img/logo-completo.png" alt="Sabores Globales">
+            </div>
+            <ul class="info-aside">
+                <li><a href="https://wa.me/573101234567">Enviar un mensaje:</a></li>
+                <li><a href="tel:+573101234567">+57 310 123 4567</a></li>
+                <hr>
+                <li><a href="#menu">Sabores Globales</a></li>
+                <hr>
+                <li><a href="#">Sede Principal:</a></li>
+                <li><a href="https://maps.google.com/?q=Calle+123+%2345-67,+Barrio+Central,+Bogotá">
+                    Calle 123 #45-67, Barrio Central, Bogotá, Colombia
+                </a></li>
+                <hr>
+                <li><a href="https://facebook.com/saboresglobales">Facebook</a></li>
+                <hr>
+                <li><a href="https://instagram.com/saboresglobales">Instagram</a></li>
+                <hr>
+                
+                
+            </ul>
+            <div class="linea-menu" id="horario"></div>
+            <ul class="horario-aside">
+                <li><p>Lunes</p> <p> 7:00pm - 11:00 pm</p></li>
+                <li><p>Martes</p> <p> 7:00pm - 11:00 pm</p></li>
+                <li class="extra-horario"><p>Miércoles</p><p>7:00pm - 11:00 pm</p></li>
+                <li class="extra-horario"><p>Jueves</p><p>7:00pm - 11:00 pm</p></li>
+                <li class="extra-horario"><p>Viernes</p><p>7:00pm - 11:00 pm</p></li>
+                <li class="extra-horario"><p>Sábado</p><p>8:00pm - 11:00 pm</p></li>
+                <li class="extra-horario"><p>Domingo</p><p>8:00pm - 12:00 pm</p></li>
+            </ul>
+            <button class="btn-mas-horario" onclick="toggleHorario()">Horario de apertura</button>
+            <p id="texto-menu-aside">También contamos con plazas de aparcamiento para tu comodidad en nuestra cede principal. El estacionamiento más cercano es Parqueadero La Clarita, ubicado a 183 metros de Sabores Globales.</p>
+</div>
+</aside>
+    </aside>
+
+    <!-- Sección de imágenes -->
+    <div class="contenido-derecha">
+        <h2>Imágenes</h2>
+        <section id="galeria-imagenes">
+            <div class="grid-imagenes">
+                <img src="img/comida 1.jpg" alt="Platillo 1">
+                <img src="img/comida2.jpg" alt="Platillo 2">
+                <img src="img/comida3.jpg" alt="Platillo 3">
+                <img src="img/comida4.jpg" alt="Platillo 4">
+                <img src="img/comida5.jpg" alt="Platillo 5">
+                <img src="img/comida6.jpg" alt="Platillo 6">
+                <a href="galeria.html"><button class="btn-mas-imagenes" >Ver más imágenes </button></a>
+     
+            </div>
+              </section>
+              <div class="horario-linea" id="mesa"></div>
+        <!-- Horario de apertura (ubicado abajo) -->
+        <div class="reserva-mesa">
+            <div class="separador">
+                <select class="campo-reserva">
+                    <option>Nº DE PERSONAS</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5+</option>
+                </select>
+                
+                <!-- Campo de fecha en lugar de un select -->
+                <input type="date" class="campo-reserva" id="fecha-reserva">
+        
+                <select class="campo-reserva">
+                    <option>HORA</option>
+                    <option>7:00 PM</option>
+                    <option>8:00 PM</option>
+                    <option>9:00 PM</option>
+                    <option>10:00 PM</option>
+                    <option>11:00 PM</option>
+                    <option>12:00 PM</option>
+                </select>
+            </div>
+            <button class="btn-reserva">RESERVAR UNA MESA</button>
+            <img src="img/cubiertos.png" alt="Cubiertos" class="icono-reserva">
+        </div>
+        
+    </div>
+</div>
+<section id="resenas">
+    <h2 class="titulo-mensajes">ayudanos a mejorar</h2>
+    <div class="contenedor-resenas">
+        <div class="resena">
+            <p><strong>Lo que le gusta a <b>لويسا فريد</b> de Sabores Globales:</strong></p>
+            <p>
+                La comida es increíble, con sabores auténticos de distintas partes del mundo. A los amantes de la gastronomía
+                internacional les encantará la variedad de platillos y la calidad de los ingredientes. Para mí, lo mejor es
+                el ramen japonés y el curry tailandés, ¡simplemente espectaculares! 
+            </p>
+        </div>
+        <div class="resena">
+            <p><strong>Lo que le gusta a <b>Berry Kuphal</b> de Sabores Globales:</strong></p>
+            <p>
+                El restaurante ofrece una gran variedad de platillos de diferentes países, y la mayoría están muy bien
+                preparados. El ambiente es agradable, el servicio es rápido y los precios son razonables. Sin embargo,
+                esperaba un poco más de autenticidad en algunos sabores. 
+            </p>
+        </div>
+        <div class="form-resena">
+            <input type="text" placeholder="DANOS TU RESEÑA">
+            <button class="btn-agregar">AGREGAR</button>
+        </div>
+    </div>
+</section>
+<section class="comentarios">
+    <div class="barra-roja"></div>
+    <div class="comentario">
+        <img src="img/persona1.jpg" alt="Foto de Luca" class="avatar">
+        <div class="contenido-comentario">
+            <h3>luca</h3>
+            <div class="estrellas">★★★★★</div>
+            <p>¡Una experiencia gastronómica increíble! Visitar Sabores Globales fue una de las mejores decisiones que he tomado. La variedad de platos internacionales es impresionante, cada uno con sabores auténticos y bien preparados...</p>
+        </div>
+    </div>
+    <div class="comentario">
+        <img src="img/persona2.jpg" alt="Foto de Emma" class="avatar">
+        <div class="contenido-comentario">
+            <h3>emma</h3>
+            <div class="estrellas">★★★★☆</div>
+            <p>¡Una experiencia gastronómica increíble! Visitar Sabores Globales fue una de las mejores decisiones que he tomado. La variedad de platos internacionales es impresionante, cada uno con sabores auténticos y bien preparados.</p>
+        </div>
+    </div>
+    <div class="comentario">
+        <img src="img/persona3.jpg" alt="Foto de Patricia" class="avatar">
+        <div class="contenido-comentario">
+            <h3>patricia</h3>
+            <div class="estrellas">★★★★☆</div>
+            <p>¡Una experiencia gastronómica increíble! Visitar Sabores Globales fue una de las mejores decisiones que he tomado. La variedad de platos internacionales es impresionante, cada uno con sabores auténticos y bien preparados.</p>
+        </div>
+    </div>
+    <button class="btn-comentarios">MAS COMENTARIOS</button>
+</section>
+
+<div class="linea-final"></div>
+<section class="menu-completo" id="menu-completo">
+   <div class="menuss"> <h1>menú completo</h1>
+    <button class="btn-descargar">DESCARGAR MENU</button>
+   </div>
+    <div class="menu-card">
+        <h2 class="categoria">platos de Colombia</h2>
+        <ul class="lista-platos">
+            <li><img src="img/bandeja.jpg" alt="Bandeja Paisa"> bandeja paisa</li>
+            <li><img src="img/ajiaco.jpg" alt="Ajiaco"> ajiaco</li>
+            <li><img src="img/sancicho.jpg" alt="Sancocho"> sancocho</li>
+            <li><img src="img/samales.jpg" alt="Tamales"> tamales</li>
+            <li><img src="img/lechona.jpg" alt="Lechona Tolimense"> lechona tolimense</li>
+        </ul>
+
+        <h2 class="categoria">acompañamientos de Colombia</h2>
+        <ul class="lista-platos">
+            <li><img src="img/patacones.jpg" alt="Patacones"> patacones</li>
+            <li><img src="img/empanada.jpg" alt="Empanadas Colombianas"> empanadas colombianas</li>
+            <li><img src="img/buñuelos.jpg" alt="Buñuelos"> buñuelos</li>
+        </ul>
+
+        <button class="btn-menu">MENU COMPLETO</button>
+
+        <img src="img/ollas.png" class="icono-sartenes" alt="Icono de sartenes">
+        <img src="img/gorro.png" class="icono-chef" alt="Gorro de chef">
+    </div>
+</section>
+<div id="linea-pais"></div>
+<section class="mas-informacion">
+
+    <footer class="footer">
+        <p>© 2025 SABORES GLOBALES. TODOS LOS DERECHOS RESERVADOS.</p>
+        <nav>
+            <a href="index.html">INICIO</a>
+            <a href="#">POLÍTICA DE PRIVACIDAD</a>
+            <a href="#">TÉRMINOS Y CONDICIONES</a>
+        </nav>
+    </footer>
+</section>
+</body>
+</html>
+<script src="js/strin.js"></script>
